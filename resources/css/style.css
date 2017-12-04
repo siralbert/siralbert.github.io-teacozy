@@ -51,6 +51,20 @@ nav span{
   width: 100%;
 }
 
+#locations{
+  background-image: url(../images/img-locations-background.jpg);
+  height: 570px;
+  padding-top: 70px;
+}
+
+#location{
+  background-color: black;
+}
+
+#contact{
+  height: 200px;
+}
+
 #store{
   height: 700px;
   padding-top: 70px;
@@ -82,6 +96,12 @@ h2{
 h2, h4{
   padding: 10px;
   font-weight: bold;
+}
+
+h5{
+  font-size: 0.83em;
+  font-weight: bold;
+  margin: 1.67em 0;
 }
 
 a:-webkit-any-link {
