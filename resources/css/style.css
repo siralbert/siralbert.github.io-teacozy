@@ -10,6 +10,10 @@ body{
 header{
   border-bottom: 1px solid seashell;
   height: 68px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  background-color: black;
 }
 
 footer{
@@ -24,10 +28,6 @@ footer{
   margin-left: 10px;
 }
 
-h2{
-
-}
-
 nav span{
   display: inline-block;
   padding: 20px 10px;
@@ -37,6 +37,27 @@ nav span{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#mission{
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  padding-top: 70px;
+}
+
+#mission .content{
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+h2, h4{
+  padding: 10px;
+  font-weight: bold;
 }
 
 a:-webkit-any-link {
