@@ -1,4 +1,39 @@
-h1 {
-  font-weight: bold;
-  font-size: 50px;
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  filter: opacity(0.9);
+  text-align: center;
+}
+
+header{
+  border-bottom: 1px solid seashell;
+  height: 68px;
+}
+
+.logo{
+  height: 50px;
+  margin-left: 10px;
+}
+
+h2{
+
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a:-webkit-any-link {
+  color: seashell;
+  cursor: auto;
+  text-decoration: underline;
 }
