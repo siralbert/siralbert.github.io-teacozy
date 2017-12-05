@@ -87,6 +87,7 @@ nav span{
   flex-direction: column;
   justify-content: center;
   flex-basis: 280px;
+  filter: opacity(1);
 }
 
 #contact{
