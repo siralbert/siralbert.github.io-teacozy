@@ -100,6 +100,7 @@ nav span{
     /* flex-basis: 280px; */
     filter: opacity(1);
     width: 13.6rem;
+/*    height: 11.5rem;*/
 }
 
 #contact{
@@ -135,7 +136,7 @@ h2, h3, h4{
 }
 
 p{
-  margin: 1em 0px;
+  margin: 1rem 0px;
 }
 
 h5{
@@ -151,7 +152,10 @@ a:-webkit-any-link {
   font-size: 1rem;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1125px){
+  p{
+    margin: 2px;
+  }
   h2{
     font-size: 1.25rem;
   }
@@ -162,12 +166,23 @@ a:-webkit-any-link {
     height: 15rem;
   }
   #store {
-      height: 25rem;
+      height: 27rem;
       padding-top: 1.5rem;
   }
+  #locations{
+    height: 18rem;
+    padding-top: 1.5rem;
+  }
+
 }
 
-@media only screen and (max-width: 570px){
+@media only screen and (max-width: 568px){
+  .item span{
+    font-size: 1rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
   html{
     font-size: 16px;
   }
@@ -175,4 +190,8 @@ a:-webkit-any-link {
   #mission{
     height: 16rem;
   }
+  #contact{
+    padding-top: 100px;
+  }
+
 }
