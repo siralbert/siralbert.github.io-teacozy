@@ -1,3 +1,7 @@
+html{
+  font-size: 22px;
+}
+
 body{
   font-family: Helvetica;
   font-size: 22px;
@@ -8,7 +12,7 @@ body{
 }
 
 .main{
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -29,13 +33,13 @@ footer{
 }
 
 .logo{
-  height: 50px;
-  margin-left: 10px;
+  height: 2.3rem;
+  margin-left: 0.5rem;
 }
 
 nav span{
   display: inline-block;
-  padding: 20px 10px;
+  padding: 1rem 0.5rem;
 }
 
 .flex-container{
@@ -46,12 +50,11 @@ nav span{
 
 #mission{
   background-image: url(../images/img-mission-background.jpg);
-  height: 700px;
+  height: 32rem;
   padding-top: 70px;
 }
 
 #mission .content{
-  margin: auto;
   background-color: black;
   width: 100%;
 }
@@ -108,7 +111,11 @@ nav span{
 }
 
 h2{
-  font-size: 1.5em;
+  font-size: 1.5rem;
+}
+
+h4{
+  font-size: 1rem;
 }
 
 h2, h3, h4{
@@ -130,4 +137,15 @@ a:-webkit-any-link {
   color: seashell;
   cursor: auto;
   text-decoration: underline;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 570px){
+  html{
+    font-size: 16px;
+  }
+
+  #mission{
+    height: 16rem;
+  }
 }
