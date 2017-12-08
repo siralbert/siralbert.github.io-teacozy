@@ -50,6 +50,7 @@ nav span{
 
 #mission{
   background-image: url(../images/img-mission-background.jpg);
+  background-size: cover;
   height: 32rem;
   padding-top: 70px;
 }
@@ -59,10 +60,11 @@ nav span{
   width: 100%;
 }
 
-#store{
-  height: 700px;
-  padding-top: 70px;
+#store {
+    height: 32rem;
+    padding-top: 3.25rem;
 }
+
 #store .images{
   display: flex;
   justify-content: center;
@@ -70,15 +72,16 @@ nav span{
 }
 
 #store .images img{
-  height: 200px;
-  margin: 10px;
+  max-width: 100%;
+  height: auto;
   display: block;
 }
 
 #locations{
   background-image: url(../images/img-locations-background.jpg);
-  height: 570px;
-  padding-top: 70px;
+  background-size: cover;
+  height: 26rem;
+  padding-top: 3.25rem;
 }
 
 #locations .flex-container {
@@ -87,27 +90,35 @@ nav span{
     flex-wrap: wrap;
 }
 
-.location{
-  background-color: black;
-  padding: 10px;
-  margin: 5px 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-basis: 280px;
-  filter: opacity(1);
+.location {
+    background-color: black;
+    padding: 0.5rem;
+    margin: 0.25rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-basis: 280px; */
+    filter: opacity(1);
+    width: 13.6rem;
 }
 
 #contact{
   height: 200px;
 }
 
-.item{
-  padding: 5px;
+.item {
+    padding: 5px;
+    width: 25%;
+    overflow: hidden;
+    margin: 0.5rem;
+    display: flex;
+    height: auto;
+    flex-direction: column;
 }
 
 .item span{
   font-weight: bold;
+  margin-top: 0.5rem;
 }
 
 h2{
@@ -119,7 +130,7 @@ h4{
 }
 
 h2, h3, h4{
-  padding: 10px;
+  padding: 0.45rem;
   font-weight: bold;
 }
 
@@ -138,6 +149,22 @@ a:-webkit-any-link {
   cursor: auto;
   text-decoration: underline;
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 1024px){
+  h2{
+    font-size: 1.25rem;
+  }
+  h4{
+    font-size: 0.84rem;
+  }
+  #mission{
+    height: 15rem;
+  }
+  #store {
+      height: 25rem;
+      padding-top: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 570px){
