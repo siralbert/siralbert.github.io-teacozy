@@ -7,6 +7,11 @@ body{
   text-align: center;
 }
 
+.main{
+  width: 1200px;
+  margin: 0 auto;
+}
+
 header{
   border-bottom: 1px solid seashell;
   height: 68px;
