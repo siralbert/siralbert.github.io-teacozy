@@ -69,6 +69,7 @@ nav span{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 #store .images img{
@@ -177,6 +178,13 @@ a:-webkit-any-link {
 }
 
 @media only screen and (max-width: 568px){
+  #bedford{
+    display:none;
+  }
+  .item {
+      padding: 5px;
+      width: 40%;
+  }
   .item span{
     font-size: 1rem;
   }
